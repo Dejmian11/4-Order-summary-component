@@ -20,7 +20,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/order-summary-component-ODi8eAyW39m)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/order-summary-component-ODi8eAyW39)
 - Live Site URL: [Live](https://sensational-tarsier-797cd5.netlify.app/)
 
 ## My process
