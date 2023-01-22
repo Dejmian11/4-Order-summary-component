@@ -1,0 +1,77 @@
+@use 'base.scss' as *;
+
+.btn--primary {
+	padding: 0.9rem;
+	border-radius: 0.8rem;
+	background-color: var(--clr-primary-400);
+	color: var(--clr-white);
+	font-size: var(--fs-300);
+	font-weight: var(--fw-bold);
+	text-decoration: none;
+	box-shadow: 0 0.7rem 2rem -1rem var(--clr-primary-400);
+	transition: all 0.2s;
+
+	&:is(:hover, :focus) {
+		opacity: 0.8;
+	}
+}
+
+.order-card {
+	border-radius: 1.4rem;
+	max-width: 410px;
+	overflow: hidden;
+	background-color: var(--clr-white);
+	box-shadow: 0 0.5rem 3rem -2rem var(--clr-primary-400);
+	text-align: center;
+
+	&__content {
+		--content-spacing: 0.8rem;
+
+		justify-content: center;
+		padding: 2rem 8%;
+	}
+
+	&__plan {
+		grid-template-columns: 3.5rem 3fr 2fr;
+		align-items: center;
+		justify-content: stretch;
+		border-radius: 0.8rem;
+		margin-block: 0.5rem;
+		padding: 1rem;
+		background-color: var(--clr-neutral-900);
+		font-size: var(--fs-300);
+
+		& .grid {
+			--content-spacing: 0.1rem;
+
+			justify-items: start;
+		}
+	}
+
+	&__link {
+		font-size: var(--fs-300);
+		font-weight: var(--fw-bold);
+		transition: all 0.2s;
+
+		&[data-type='change-plan'] {
+			justify-self: end;
+			color: var(--clr-primary-400);
+
+			&:is(:hover, :focus) {
+				opacity: 0.8;
+			}
+		}
+
+		&[data-type='cancel-order'] {
+			justify-self: center;
+			margin-top: 0.5rem;
+			color: var(--clr-neutral-600);
+			font-weight: var(--fw-black);
+			text-decoration: none;
+
+			&:is(:hover, :focus) {
+				color: var(--clr-neutral-300);
+			}
+		}
+	}
+}
