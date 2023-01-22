@@ -15,13 +15,13 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/Dejmian11/4-Order-summary-component/blob/master/images/design/Screenshot%20-%20Frontend%20Mentor%20Order%20summary%20card.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/order-summary-component-ODi8eAyW39m)
+- Live Site URL: [Live](https://sensational-tarsier-797cd5.netlify.app/)
 
 ## My process
 
